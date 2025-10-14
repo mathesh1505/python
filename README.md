@@ -46,5 +46,23 @@ if checks a condition — executes code if it’s True.else runs only if the con
 # elif statement:
 It allows you to check multiple conditions one after another.
 <img width="1362" height="343" alt="Screenshot 2025-10-13 190528" src="https://github.com/user-attachments/assets/5aa839bc-3ba4-4809-a1f2-bba025d2091c" />
-
+# 5 looping statement:
+# 5.1 for loop:
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
+<img width="1335" height="196" alt="Screenshot 2025-10-14 184412" src="https://github.com/user-attachments/assets/c96a830e-c2aa-4cb9-9d2f-9965ec77de29" />
+# 5.2 While loop:
+With the while loop we can execute a set of statements as long as a condition is true.
+<img width="1434" height="478" alt="Screenshot 2025-10-14 184956" src="https://github.com/user-attachments/assets/68844fbd-38a2-4c61-a2f6-cd18e975bc99" />
+# 6 Functions and modules:
+# 6.1 Functions:
+A function is a block of code which only runs when it is called.A function can return data as a result.A function helps avoiding code repetition.
+<img width="1406" height="264" alt="Screenshot 2025-10-14 185343" src="https://github.com/user-attachments/assets/9e8f1c4d-93bc-433e-b06e-ad2f34aed49e" />
+# 6.2 Modules:
+Consider a module to be the same as a code library.A file containing a set of functions you want to include in your application.
+# 7 Data structures:
+# 7.1 Lists:
+Lists are used to store multiple items in a single variable.Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.Lists are created using square brackets.
+<img width="1443" height="233" alt="Screenshot 2025-10-14 190239" src="https://github.com/user-attachments/assets/24811172-ef3d-4c04-9739-c59bb5e3def5" />
+# 7.2 Dictionaries:
+Dictionaries are used to store data values in key:value pairs.A dictionary is a collection which is ordered*, changeable and do not allow duplicates.As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.Dictionaries are written with curly brackets, and have keys and values:
 
