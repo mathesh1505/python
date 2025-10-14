@@ -33,7 +33,15 @@ A variable in Python is a name that stores a value in memory.Think of it as a co
 Control flow statements decide how your program runs — they control which part of the code executes and when.
 # conditional statement:
 # if statement:
+Used when you want to check only one condition.
+If it’s true → executes code
+If it’s false → does nothing
 <img width="1614" height="186" alt="Screenshot 2025-10-13 190235" src="https://github.com/user-attachments/assets/c5479203-6ba9-447c-aa21-72661bbcba51" />
+
+# if else statement:
+One block runs if the condition is true.The other block runs if the condition is false.
+if checks a condition — executes code if it’s True.else runs only if the condition is False.
+<img width="1446" height="240" alt="Screenshot 2025-10-14 104326" src="https://github.com/user-attachments/assets/13217c80-3211-4917-8e69-c869e6b1b75e" />
 
 # elif statement:
 It allows you to check multiple conditions one after another.
