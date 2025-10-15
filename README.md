@@ -65,4 +65,12 @@ Lists are used to store multiple items in a single variable.Lists are one of 4 b
 <img width="1443" height="233" alt="Screenshot 2025-10-14 190239" src="https://github.com/user-attachments/assets/24811172-ef3d-4c04-9739-c59bb5e3def5" />
 # 7.2 Dictionaries:
 Dictionaries are used to store data values in key:value pairs.A dictionary is a collection which is ordered*, changeable and do not allow duplicates.As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.Dictionaries are written with curly brackets, and have keys and values:
-
+# 7.3 Tuple:
+Tuples are used to store multiple items in a single variable.Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.A tuple is a collection which is ordered and unchangeable.
+<img width="1382" height="247" alt="Screenshot 2025-10-15 181113" src="https://github.com/user-attachments/assets/6578c950-7e03-4053-b665-75c783270dcb" />
+# 7.4 Set:
+Sets are used to store multiple items in a single variable.A set is a collection which is unordered, unchangeable and the duplicates are automatically removed.
+<img width="1600" height="234" alt="Screenshot 2025-10-15 182056" src="https://github.com/user-attachments/assets/6383a3fa-f980-40b1-b1b1-af23ea70ff86" />
+# 8 File Handling:
+File handling in Python allows you to create, read, write, and delete files stored on your computer.It uses the built-in function open() to access files.
+#
