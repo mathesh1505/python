@@ -73,4 +73,15 @@ Sets are used to store multiple items in a single variable.A set is a collection
 <img width="1600" height="234" alt="Screenshot 2025-10-15 182056" src="https://github.com/user-attachments/assets/6383a3fa-f980-40b1-b1b1-af23ea70ff86" />
 # 8 File Handling:
 File handling in Python allows you to create, read, write, and delete files stored on your computer.It uses the built-in function open() to access files.
-#
+# 9 oops
+# 9.1 classes and objects:
+A class is a blueprint or template for creating objects.It defines attributes (variables) and methods (functions) that describe the behavior of the object.
+An object is an instance (or a real example) of a class.When a class is defined, no memory is allocated until an object is created.
+<img width="1459" height="645" alt="Screenshot 2025-10-15 221047" src="https://github.com/user-attachments/assets/94d118a3-ed39-48a3-92f8-a945d80ee68a" />
+# 9.2 inheritance and polymorphism:
+# Inheritance:
+Inheritance allows one class (child class) to inherit properties and methods from another class (parent class).It helps to reuse code and create a hierarchy between classes.
+<img width="1572" height="428" alt="Screenshot 2025-10-15 222243" src="https://github.com/user-attachments/assets/4818682a-a426-4bc3-b495-251384d0697e" />
+# Polymorphism:
+Polymorphism means “many forms”.It allows different classes to have methods with the same name, but with different behaviors.
+<img width="1463" height="316" alt="Screenshot 2025-10-15 222701" src="https://github.com/user-attachments/assets/8abaa628-56aa-42b2-8715-abbb6ba67e51" />
