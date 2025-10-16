@@ -85,3 +85,26 @@ Inheritance allows one class (child class) to inherit properties and methods fro
 # Polymorphism:
 Polymorphism means “many forms”.It allows different classes to have methods with the same name, but with different behaviors.
 <img width="1463" height="316" alt="Screenshot 2025-10-15 222701" src="https://github.com/user-attachments/assets/8abaa628-56aa-42b2-8715-abbb6ba67e51" />
+# Abstraction:
+Abstraction means hiding complex implementation details and showing only the essential features of an object.
+<img width="1429" height="213" alt="Screenshot 2025-10-16 185747" src="https://github.com/user-attachments/assets/8d4ec041-a3cb-4f2d-85c2-649018b3b902" />
+# Encapsulation:
+Encapsulation means binding data (variables) and methods (functions) into a single unit usually a class — and restricting direct access to some data for security.It hides the object’s internal details and only allows controlled access using methods.
+# Error Handling:
+Error handling in Python means detecting and managing errors (exceptions) that occur when your program runs — without stopping the execution unexpectedly.Error handling lets your program continue running smoothly even if something goes wrong.
+* try	 Code that may raise an error
+* except  Handles the error
+* else  runs only when no error occurs
+* finally  always runs (used for clean-up actions)
+<img width="1443" height="390" alt="Screenshot 2025-10-16 185355" src="https://github.com/user-attachments/assets/746bf04f-4a07-47a4-87b3-91575e018014" />
+
+# Decorators:
+A decorator in Python is a function that modifies another function without changing its code directly.A decorator adds extra functionality to an existing function.
+* @decorator_function → attaches the decorator
+* It wraps the original function with extra code (the wrapper)
+* The wrapper_function() runs before and after the original function
+<img width="1385" height="457" alt="Screenshot 2025-10-16 184258" src="https://github.com/user-attachments/assets/f61f71da-d4df-40ff-ad7f-50eac2293ce9" />
+
+# Generators:
+A generator is a special type of function that returns values one at a time using the yield keyword, instead of returning them all at once like a normal function.Used for reading large files, data streams, etc.Stops when data is exhausted automatically.
+<img width="1340" height="306" alt="Screenshot 2025-10-16 184957" src="https://github.com/user-attachments/assets/02518334-8fe6-4a61-bf74-3b4fec851c10" />
