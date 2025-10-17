@@ -85,12 +85,12 @@ Inheritance allows one class (child class) to inherit properties and methods fro
 # Polymorphism:
 Polymorphism means “many forms”.It allows different classes to have methods with the same name, but with different behaviors.
 <img width="1463" height="316" alt="Screenshot 2025-10-15 222701" src="https://github.com/user-attachments/assets/8abaa628-56aa-42b2-8715-abbb6ba67e51" />
-# Abstraction:
+# 9.3 Abstraction:
 Abstraction means hiding complex implementation details and showing only the essential features of an object.
 <img width="1429" height="213" alt="Screenshot 2025-10-16 185747" src="https://github.com/user-attachments/assets/8d4ec041-a3cb-4f2d-85c2-649018b3b902" />
-# Encapsulation:
+# 9.4 Encapsulation:
 Encapsulation means binding data (variables) and methods (functions) into a single unit usually a class — and restricting direct access to some data for security.It hides the object’s internal details and only allows controlled access using methods.
-# Error Handling:
+# 10 Error Handling:
 Error handling in Python means detecting and managing errors (exceptions) that occur when your program runs — without stopping the execution unexpectedly.Error handling lets your program continue running smoothly even if something goes wrong.
 * try	 Code that may raise an error
 * except  Handles the error
@@ -98,13 +98,32 @@ Error handling in Python means detecting and managing errors (exceptions) that o
 * finally  always runs (used for clean-up actions)
 <img width="1443" height="390" alt="Screenshot 2025-10-16 185355" src="https://github.com/user-attachments/assets/746bf04f-4a07-47a4-87b3-91575e018014" />
 
-# Decorators:
+# 11 DWA
+# 11.1 Decorators:
 A decorator in Python is a function that modifies another function without changing its code directly.A decorator adds extra functionality to an existing function.
 * @decorator_function → attaches the decorator
 * It wraps the original function with extra code (the wrapper)
 * The wrapper_function() runs before and after the original function
 <img width="1385" height="457" alt="Screenshot 2025-10-16 184258" src="https://github.com/user-attachments/assets/f61f71da-d4df-40ff-ad7f-50eac2293ce9" />
 
-# Generators:
+# 11.2 Generators:
 A generator is a special type of function that returns values one at a time using the yield keyword, instead of returning them all at once like a normal function.Used for reading large files, data streams, etc.Stops when data is exhausted automatically.
 <img width="1340" height="306" alt="Screenshot 2025-10-16 184957" src="https://github.com/user-attachments/assets/02518334-8fe6-4a61-bf74-3b4fec851c10" />
+
+# 11.3 Lambda Functions:
+A lambda function is a small, anonymous function defined without a name.It take any number of arguments and it Can have only one expression.
+* map() applies a function to all items in a list (or iterable) and returns a map object.
+* filter() returns only the items in a list (or iterable) that satisfy a condition.
+* sorted() returns a new sorted list from any iterable.list.sort() sorts the list in-place.
+* reduce() applies a function cumulatively to items of an iterable to reduce it to a single value.
+<img width="787" height="414" alt="Screenshot 2025-10-17 174324" src="https://github.com/user-attachments/assets/9c9223d0-b173-408d-b373-4748a11fc5bc" />
+<img width="657" height="293" alt="Screenshot 2025-10-17 174302" src="https://github.com/user-attachments/assets/de46c6c9-2367-4fc4-b3ce-9c8230b0cf1f" />
+
+# 11.4 Higher order function:
+A Higher-Order Function is a function that can take another function as an argumentor can return a function as a result.
+Examples of built-in HOFs: map(), filter(), reduce(), sorted(), flatmap()
+<img width="897" height="365" alt="Screenshot 2025-10-17 175241" src="https://github.com/user-attachments/assets/90d35f66-04e5-4fe1-8b58-049b0203c2ad" />
+<img width="544" height="244" alt="Screenshot 2025-10-17 175224" src="https://github.com/user-attachments/assets/fa4ff7bc-9ce6-401d-885c-74a3bd7e82a3" />
+
+# 12 Unit Testing:
+Unit Testing is the process of testing individual units or components of a program in isolation.A unit can be a function, method, or class.Python provides a built-in module called unittest for writing unit tests.
